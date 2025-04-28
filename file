@@ -1,0 +1,16 @@
+listen: 0.0.0.0:6290
+acme:
+    domains: ddd@dfdd.com
+    email: gmail@gmail.com
+auth:
+    type: password
+    password: your_secure_password
+masquerade:
+    type: proxy
+    proxy:
+        url: https://news.ycombinator.com/
+        rewriteHost: true
+obfs:
+    type: salamander
+    salamander:
+        password: BbU9kd44uwer2eZO2TLaUased
